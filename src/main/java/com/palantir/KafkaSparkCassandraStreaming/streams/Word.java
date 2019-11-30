@@ -6,7 +6,11 @@ public class Word implements Serializable {
     private static final long serialVersionUID = 1L;
     private String word;
     private int count;
-    Word(String word, int count) {
+
+    public  Word(){
+
+    }
+    public Word(String word, int count) {
         this.word = word;
         this.count = count;
     }
